@@ -33,7 +33,7 @@
 							<article class="post featured">
 								<header class="major">
 									<h2>Dang Huy Loc</h2>
-									<p>Jsem student SPŠ a VOŠ se zájmem o programování a elektrotechniku. Ovládám češtinu a angličtinu a ve volném čase se učím Python, HTML a CSS. 
+									<p>Jsem student (SPŠ a VOŠ) se zájmem o programování a elektrotechniku. Ovládám češtinu a angličtinu a ve volném čase se učím Python, HTML a CSS. 
 										Ve škole se věnuji elektrotechnice a robotice, kde rozvíjím své znalosti v oblasti automatizace a programování. 
 										Baví mě technologie a rád pracuji na projektech, které propojují software s hardwarem.
 									</p>
@@ -47,16 +47,33 @@
 						<section class="posts">
 							<article>
 								<header>
-									<h2>Šibenice</h2>
+									<h2>ŠACHOVÁ HRA</h2>
 								</header>
-								<p>Hangman Game – PyQt5 Aplikace
-									Tento projekt je grafická verze hry Šibenice, vytvořená v Pythonu s využitím PyQt5. 
-									Hráči hádají písmena nebo celá slova a snaží se odhalit tajné slovo dříve, než dosáhnou maximálního počtu špatných pokusů. </p>
-								<a class="image fit"><img src="images\projekt_hangman.png" alt="" /></a>
-								<a class="image fit"><img src="images\project.jpg" alt="" /></a>
+									<p>
+										    Tento projekt je plně funkční šachová hra vytvořená v jazyce Python
+											s využitím knihovny Pygame. Hra podporuje dva herní módy — hráč proti hráči
+											a hráč proti počítači s integrovaným šachovým enginem Stockfish.
+									</p>
+
+									<h4>Herní prvky</h4>
+									<ul>
+										<li>Podpora všech pravidel šachů včetně rošády a povýšení pěšce</li>
+										<li>Detekce šachu, matu a patu</li>
+										<li>Pět úrovní obtížnosti od začátečníka až po experta</li>
+										<li>Zvýraznění možných tahů a vizuální varování při šachu</li>
+										<li>Časovač pro oba hráče a průběžná historie tahů</li>
+									</ul>
+
+									<p>
+										Projekt využívá šachový engine Stockfish, který komunikuje přes UCI protokol
+										a běží na pozadí ve vlastním vlákně, takže hra zůstává plynulá i během výpočtu tahu.
+										Při vývoji jsem pracoval s herní smyčkou, zpracováním vstupních událostí,
+										vykreslováním animací a implementací šachové logiky.
+									</p>
+								<a class="image fit"><img src="images\chess.png" alt="" /></a>
+								<a class="image fit"><img src="images\chess1.png" alt="" /></a>
 								<ul class="actions special">
-									<li>
-									<a href="https://github.com/bricksmasher918/projects/blob/main/hangman2.py" 
+									<a href="https://github.com/bricksmasher918/projects/tree/main/chess_project" 
 										class="button" 
 										target="_blank" 
 										rel="noopener noreferrer">
@@ -69,14 +86,63 @@
 								<header>
 									<h2>RYTMICKÁ HRA</h2>
 								</header>
-								<p>Rhythm Game – Pygame Aplikace
-									Tento projekt je komplexní rytmická hra vytvořená v Pythonu s využitím knihovny Pygame.
-									Tato hra propracovanější prvky, například animace zásahů, combo efekty a vizuální zpětnou vazbu pro chyby. Hra je rozdělena do několika modulů, což umožňuje lepší strukturu kódu a snadnější rozšiřování.
-									Hráči stisknou správné klávesy ve správný čas, aby zasáhli padající kostičky, získali body a udrželi combo. Hra také zahrnuje systém skóre, který odměňuje přesnost a plynulost hraní.
-									Projekt je mojí první zkušeností s organizací kódu do více souborů a tříd, což mi pomohlo lépe pochopit základy programování her v Pygame, včetně práce s herní smyčkou, zpracováním událostí a animacemi. </p>
+									<p>
+										Tento projekt je rytmická hra vytvořená v jazyce Python
+										s využitím knihovny Pygame. Hráč musí stisknout správné 
+										klávesy ve správný čas, aby zasáhl padající objekty, získal body a udržel combo.
+									</p>
+
+									<h4>Herní prvky</h4>
+									<ul>
+										<li>Animace zásahů a combo efektů</li>
+										<li>Vizuální zpětná vazba při chybě</li>
+										<li>Výběr z více písní</li>
+										<li>Herní menu a možnost pauzy během hry</li>
+										<li>Bodovací systém založený na přesnosti hráče</li>
+									</ul>
+
+									<p>
+										Projekt je rozdělen do více modulů a tříd, což zlepšuje strukturu kódu 
+										a umožňuje snadnější rozšiřování aplikace. Při vývoji jsem pracoval 
+										s herní smyčkou, zpracováním vstupních událostí, animacemi 
+										a synchronizací objektů s hudbou.
+									</p>
+
+									<p>
+										Mapy pro jednotlivé skladby jsou kompatibilní s mapami z rytmické hry 
+										<strong>osu!</strong>, které lze díky jejich popularitě snadno stáhnout 
+										z internetu a převést pro použití v této aplikaci.
+									</p>
+
+									<p>
+										Tento projekt byl mojí první zkušeností s organizací většího programu 
+										do více souborů a tříd a pomohl mi lépe pochopit základy vývoje her 
+										v Pythonu.
+									</p>
 								<a class="image fit"><img src="images\rhytm_game2.png" alt="" /></a>
+								<a class="image fit"><img src="images\rhytm_game.png" alt="" /></a>
 								<ul class="actions special">
 									<a href="https://github.com/bricksmasher918/projects/tree/main/rhytm_game" 
+										class="button" 
+										target="_blank" 
+										rel="noopener noreferrer">
+										Otevřít
+									</a>
+									</li>
+								</ul>
+							</article>
+							<article>
+								<header>
+									<h2>Šibenice</h2>
+								</header>
+								<p>Hangman Game – PyQt5 Aplikace
+									Tento projekt je grafická verze hry Šibenice, vytvořená v Pythonu s využitím PyQt5. 
+									Hráči hádají písmena nebo celá slova a snaží se odhalit tajné slovo dříve, než dosáhnou maximálního počtu špatných pokusů. </p>
+								<a class="image fit"><img src="images\projekt_hangman.png" alt="" /></a>
+								<a class="image fit"><img src="images\project.jpg" alt="" /></a>
+								<ul class="actions special">
+									<li>
+									<a href="https://github.com/bricksmasher918/projects/blob/main/hangman2.py" 
 										class="button" 
 										target="_blank" 
 										rel="noopener noreferrer">
@@ -118,6 +184,4 @@
 			<script src="assets/js/main.js"></script>
 
 	</body>
-
 </html>
-
